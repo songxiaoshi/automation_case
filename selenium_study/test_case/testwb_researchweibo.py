@@ -5,10 +5,13 @@ import unittest
 import xlwt
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import sys
 
 from PO.weibopagelist import wbplist
-from selenium.webdriver.support.wait import WebDriverWait     #显示等待
-from selenium.webdriver.support import expected_conditions as EC #元素的状态是否是可点击的
+
+
+# from selenium.webdriver.support.wait import WebDriverWait     #显示等待
+# from selenium.webdriver.support import expected_conditions as EC #元素的状态是否是可点击的
 
 class researchWeibo(unittest.TestCase):
     def setUp(self):
@@ -18,11 +21,11 @@ class researchWeibo(unittest.TestCase):
         driver = self.driver
         url = 'https://s.weibo.com/'
         driver.get(url)
-       # WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(By.CSS_SELECTOR,'div[class="search-input"]>input[type="text"]'))
+        # WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(By.CSS_SELECTOR,'div[class="search-input"]>input[type="text"]'))
         # #等待元素出现时马上操作
         driver.find_element(By.CSS_SELECTOR, 'div[class="search-input"]>input[type="text"').send_keys('自动化测试')
 
-        WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(By.CLASS_NAME,'s-btn-b'))
+        # WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(By.CLASS_NAME,'s-btn-b'))
         driver.find_element(By.CLASS_NAME, 's-btn-b').click()
 
         # WebDriverWait(self.driver,10).until(EC.visibility_of_element
@@ -58,7 +61,7 @@ class researchWeibo(unittest.TestCase):
             source = pl.find_element(*wbplist.source).text
             coll = pl.find_element(*wbplist.coll).text
             send = pl.find_element(*wbplist.send).text
-            send_num = str(send).split("转发")[1]      #split分割字符串，
+            send_num = str(send).split("转发")[1]  # split分割字符串，
             if send_num == '':
                 send_num = 0
             comment = pl.find_element(*wbplist.comment).text
@@ -101,5 +104,5 @@ class researchWeibo(unittest.TestCase):
         pass
 
 
-if '__name__' == '__main__':
+if __name__ == '__main__':
     unittest.main()
