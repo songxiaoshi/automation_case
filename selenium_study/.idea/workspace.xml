@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecb9369e-4692-4dcd-98b0-bf539beb5bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dummy.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/20200608.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/20200608.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/20200610-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_researchweibo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/20200610.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/20200610.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/loginrequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/loginrequest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/testsplit.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testsplit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile/weibo.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/weibo.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/testwb_researchweibo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testwb_researchweibo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weibo.xls" beforeDir="false" afterPath="$PROJECT_DIR$/weibo.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +41,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PO/weibopagelist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/20200608.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-790">
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#13#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2">
@@ -57,10 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_researchweibo.py">
+        <entry file="file://$PROJECT_DIR$/test_case/testwb_researchweibo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="1760">
+              <caret line="96" column="78" lean-forward="true" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
               <folding>
                 <element signature="e#18#33#0" expanded="true" />
               </folding>
@@ -76,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+            <state relative-caret-position="303">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#2#43#0" expanded="true" />
               </folding>
@@ -90,15 +104,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="632" column="12" selection-start-line="632" selection-start-column="12" selection-end-line="632" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11487">
-              <caret line="557" selection-start-line="557" selection-end-line="557" />
             </state>
           </provider>
         </entry>
@@ -139,6 +144,7 @@
         <option value="$PROJECT_DIR$/testFile/20200610-2.py" />
         <option value="$PROJECT_DIR$/HTMLTestrunner.py" />
         <option value="$PROJECT_DIR$/test_case/t_20200610-2.py" />
+        <option value="$PROJECT_DIR$/test_case/testwb_researchweibo.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -161,6 +167,16 @@
             <path>
               <item name="selenium_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_study" type="462c0819:PsiDirectoryNode" />
+              <item name="PO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium_study" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium_study" type="b2602c69:ProjectViewProjectNode" />
@@ -352,12 +368,12 @@
     <frame x="0" y="23" width="1440" height="835" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.25299507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.25299507" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24944155" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996277" visible="true" weight="0.3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996277" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,16 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9450">
           <caret line="458" column="22" selection-start-line="458" selection-start-column="22" selection-end-line="458" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/20200608.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-848">
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#13#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,16 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PO/weibopagelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6384">
@@ -492,16 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/20200610.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2121">
-          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
-          <folding>
-            <element signature="e#13#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sss.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -509,16 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
           <caret line="228" column="36" selection-start-line="228" selection-start-column="36" selection-end-line="228" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/loginrequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,16 +524,6 @@
     <entry file="file://$PROJECT_DIR$/report/result20200623195846.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_researchweibo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#18#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -571,10 +537,62 @@
     <entry file="file://$PROJECT_DIR$/report/result20200623205537.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/loginrequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/20200608.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-790">
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#13#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/20200610.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2121">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <folding>
+            <element signature="e#13#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/weibopagelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/testwb_researchweibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="96" column="78" lean-forward="true" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/result20200624173946.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4653" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        <state relative-caret-position="303">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#2#43#0" expanded="true" />
           </folding>

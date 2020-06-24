@@ -3,9 +3,14 @@
 from HTMLTestRunner import HTMLTestRunner
 import unittest
 import time
+import os
 
 """测试路径"""
-testcasedir = "./test_case/"
+#testcasedir = "./test_case/"
+
+rootpath = '/Users/wangqc/Documents/projects/automation_case/selenium_study/'
+testcasedir = os.path.join(rootpath, 'test_case')
+print('testcasedir',testcasedir)
 
 def Createsuitel():
     testsuit = unittest.TestSuite()
@@ -23,7 +28,7 @@ if __name__ == '__main__':
     SSS = Createsuitel()
 
     now_time = time.strftime('%Y%m%d%H%M%S', time.localtime())
-    filename = './report/'+'result'+now_time+'.html'
+    filename = rootpath+'report/'+'result'+now_time+'.html'
     print(filename)
     fp = open(filename, 'wb')
     """定义测试报告"""
