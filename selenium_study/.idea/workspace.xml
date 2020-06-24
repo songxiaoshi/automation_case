@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ecb9369e-4692-4dcd-98b0-bf539beb5bb1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../dummy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200623210022.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200623210117.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200623210251.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200623210335.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200624173546.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200624173946.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200624174039.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/result20200624174113.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/testwb_researchweibo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testwb_researchweibo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/weibo.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/weibo.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weibo.xls" beforeDir="false" afterPath="$PROJECT_DIR$/weibo.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case/testwb_researchweibo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="96" column="78" lean-forward="true" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
+            <state relative-caret-position="430">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#18#33#0" expanded="true" />
               </folding>
@@ -87,11 +94,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="325">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#2#43#0" expanded="true" />
               </folding>
@@ -144,8 +151,8 @@
         <option value="$PROJECT_DIR$/testFile/20200610-2.py" />
         <option value="$PROJECT_DIR$/HTMLTestrunner.py" />
         <option value="$PROJECT_DIR$/test_case/t_20200610-2.py" />
-        <option value="$PROJECT_DIR$/test_case/testwb_researchweibo.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test_case/testwb_researchweibo.py" />
       </list>
     </option>
   </component>
@@ -215,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="selenium study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,8 +309,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Unittests in testwb_researchweibo.py" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.testsplit" />
         <item itemvalue="Python tests.Unittests for 20200610-2.researchWeibo.test_research" />
         <item itemvalue="Python tests.Unittests for 20200610-2.researchWeibo" />
@@ -324,12 +331,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_20200610-2_py - 2020.06.19 at 12h 59m 17s.xml">
-      <configuration name="Unittests in 20200610-2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_20200610-2_py - 2020.06.19 at 13h 00m 00s.xml">
-      <configuration name="Unittests in 20200610-2.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_20200610-2_py - 2020.06.19 at 13h 05m 03s.xml">
       <configuration name="Unittests in 20200610-2.py" configurationId="tests" />
     </history-entry>
@@ -353,6 +354,12 @@
     </history-entry>
     <history-entry file="Unittests_in_20200610-2_py - 2020.06.23 at 11h 43m 13s.xml">
       <configuration name="Unittests in 20200610-2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testwb_researchweibo_py - 2020.06.24 at 20h 03m 18s.xml">
+      <configuration name="Unittests in testwb_researchweibo.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testwb_researchweibo_py - 2020.06.24 at 20h 05m 02s.xml">
+      <configuration name="Unittests in testwb_researchweibo.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -574,16 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/testwb_researchweibo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="96" column="78" lean-forward="true" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
-          <folding>
-            <element signature="e#18#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report/result20200624173946.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4653" />
@@ -591,10 +588,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="325">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#2#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/testwb_researchweibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,9 +10,9 @@ import sys
 from PO.weibopagelist import wbplist
 
 
-# from selenium.webdriver.support.wait import WebDriverWait     #显示等待
-# from selenium.webdriver.support import expected_conditions as EC #元素的状态是否是可点击的
-
+#from selenium.webdriver.support.wait import WebDriverWait     #显示等待
+#from selenium.webdriver.support import expected_conditions as EC #元素的状态是否是可点击的
+import time
 class researchWeibo(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
@@ -21,7 +21,8 @@ class researchWeibo(unittest.TestCase):
         driver = self.driver
         url = 'https://s.weibo.com/'
         driver.get(url)
-        # WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(By.CSS_SELECTOR,'div[class="search-input"]>input[type="text"]'))
+        time.sleep(5)
+        #WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(By.CSS_SELECTOR,'div[class="search-input"]>input[type="text"]'))
         # #等待元素出现时马上操作
         driver.find_element(By.CSS_SELECTOR, 'div[class="search-input"]>input[type="text"').send_keys('自动化测试')
 
