@@ -7,9 +7,11 @@ import os
 
 """测试路径"""
 #testcasedir = "./test_case/"
+print(os.path.abspath('.'))#获取当前工作目录路径
+path = os.path.abspath('.')
 
-rootpath = '/Users/wangqc/Documents/projects/automation_case/selenium_study/'
-testcasedir = os.path.join(rootpath, 'test_case')
+#rootpath = '/Users/wangqc/Documents/projects/automation_case/selenium_study/'
+testcasedir = os.path.join(path, 'test_case')
 print('testcasedir',testcasedir)
 
 def Createsuitel():
@@ -28,7 +30,7 @@ if __name__ == '__main__':
     SSS = Createsuitel()
 
     now_time = time.strftime('%Y%m%d%H%M%S', time.localtime())
-    filename = rootpath+'report/'+'result'+now_time+'.html'
+    filename = path+'/report/'+'result'+now_time+'.html'
     print(filename)
     fp = open(filename, 'wb')
     """定义测试报告"""
