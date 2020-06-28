@@ -4,13 +4,16 @@ from HTMLTestRunner import HTMLTestRunner
 import unittest
 import time
 import os
+import sys
 
 """测试路径"""
 #testcasedir = "./test_case/"
 #print(os.path.abspath('.'))#获取当前工作目录路径
 #path = os.path.abspath('.')
-print(os.getcwd())
-path = os.getcwd()
+#print(os.getcwd())
+#path = os.getcwd()
+print(os.path.split(os.path.abspath(__file__))[0])
+path = os.path.split(os.path.abspath(__file__))[0]
 
 #rootpath = '/Users/wangqc/Documents/projects/automation_case/selenium_study/'
 testcasedir = os.path.join(path, 'test_case')
